@@ -25,6 +25,8 @@ Especially welcome:
 
 They are welcome, with one condition: **open an issue first and wait for a reply**, unless the change is trivial like a typo or a broken link.
 
+**Translations are the standing exception.** From v1.5 the kit ships an i18n scaffold with English and Italian, and any other language is community driven: send the translation file as a pull request without asking first. There is no scope discussion to have, which is the only thing the issue-first rule exists to protect you from.
+
 This is not bureaucracy. It is a starter kit, so every feature added becomes code that thousands of people would carry into their own products and maintain forever. That makes the bar for inclusion high, and it is a bar about scope and direction, not about the quality of your work.
 
 Please also know, plainly: **every contribution is reviewed, and it may be declined.** A pull request being open is not a commitment to accept it. If we decline one we will say why, and it is usually one of these reasons:
