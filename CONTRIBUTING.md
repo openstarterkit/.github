@@ -46,6 +46,24 @@ Keep it focused on one thing, and make sure `npm run lint`, `npx tsc --noEmit` a
 
 The [roadmap](https://github.com/openstarterkit/nextjs-saas-starter-kit/blob/main/ROADMAP.md) is indicative and can be reordered based on what people ask for. If something on it matters to you, say so in an issue. That signal genuinely changes the order.
 
+## Versioning
+
+The kit follows [Semantic Versioning](https://semver.org/), with one clarification that matters for a starter kit: there is no package to install, so the public API is not a set of exported functions. It is what we promise to people who already cloned the kit and want to pull an update.
+
+That turns every release into one question, with a testable answer:
+
+**What does someone who already cloned have to do, to take this version?**
+
+- **Patch** (1.5.0 to 1.5.1). `git pull` is enough. Fixes and maintenance, no new features.
+- **Minor** (1.5.0 to 1.6.0). `git pull` and `npm install`, at most a migration that runs on its own or a new optional environment variable. Things are added, nothing is taken away.
+- **Major** (1.x to 2.0.0). You have to do something by hand: a newly required environment variable, a migration to review against your own data, a renamed file you were told to edit, a higher runtime, or a feature removed.
+
+Note that this does not track how much work went into a release. A release can take two weeks and still be a minor; renaming one environment variable takes ten minutes and is a major.
+
+Dependency updates do not get a version of their own. They ride along with whatever release ships next, unless a security advisory is critical, has a real fix available, and affects the runtime. In that case a patch ships on its own, as [1.4.1](https://github.com/openstarterkit/nextjs-saas-starter-kit/blob/main/CHANGELOG.md) did.
+
+The changelog format follows [Keep a Changelog](https://keepachangelog.com/).
+
 ## Code of conduct
 
 Be decent. Assume the other person is trying to help, and disagree about the work rather than the person. Behaviour that makes this a worse place to be will be moderated.
