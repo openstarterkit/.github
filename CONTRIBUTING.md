@@ -25,7 +25,7 @@ Especially welcome:
 
 They are welcome, with one condition: **open an issue first and wait for a reply**, unless the change is trivial like a typo or a broken link.
 
-**Translations are the standing exception.** From v1.6 the kit ships an i18n scaffold with English and Italian, and any other language is community driven: send the translation file as a pull request without asking first. There is no scope discussion to have, which is the only thing the issue-first rule exists to protect you from.
+**Translations are the standing exception.** From v1.6 the kit ships an i18n scaffold: English complete, and Italian filled in for the documentation, which is there to prove the routing, the switch and the fallback work rather than describe them. The rest of the Italian interface, and every other language, is community driven: send the translation file as a pull request without asking first. There is no scope discussion to have, which is the only thing the issue-first rule exists to protect you from.
 
 This is not bureaucracy. It is a starter kit, so every feature added becomes code that thousands of people would carry into their own products and maintain forever. That makes the bar for inclusion high, and it is a bar about scope and direction, not about the quality of your work.
 
