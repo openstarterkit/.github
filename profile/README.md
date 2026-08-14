@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/openstarterkit/nextjs-saas-starter-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/openstarterkit/nextjs-saas-starter-kit/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/openstarterkit/nextjs-saas-starter-kit/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-1.6.1-6366f1.svg)](https://github.com/openstarterkit/nextjs-saas-starter-kit/blob/main/ROADMAP.md)
+[![Version](https://img.shields.io/badge/version-1.6.2-6366f1.svg)](https://github.com/openstarterkit/nextjs-saas-starter-kit/blob/main/ROADMAP.md)
 
 ⚡ Ship your SaaS this weekend — auth, payments, admin and emails included, MIT-licensed.
 
